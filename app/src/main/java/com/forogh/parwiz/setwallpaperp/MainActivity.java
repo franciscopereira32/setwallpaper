@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setWallpaper() {
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.discovery);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.peppa);
         WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
 
 
